@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/news/news",
+    "pages/news-details/news-detail",
+    "pages/posts/post",
+    "pages/post-details/post-detail",
+    "pages/features/features",
+    "pages/index/index",
+    "pages/info/info"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "images/tab/news.png",
+        "selectedIconPath": "images/tab/news1.png"
+            },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "百科",
+        "iconPath": "images/tab/baike.png",
+        "selectedIconPath": "images/tab/baike1.png"
+      },
+      {
+        "pagePath": "pages/features/features",
+        "text": "推荐",
+        "iconPath": "images/tab/feature.png",
+        "selectedIconPath": "images/tab/feature1.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "关于",
+        "iconPath": "images/tab/info.png",
+        "selectedIconPath": "images/tab/info1.png"
+      }
+    ]
+  }
+}

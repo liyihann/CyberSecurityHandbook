@@ -1,0 +1,8 @@
+<template name="postItem">
+  <view class="post-container">
+
+    <text class="post-title">{{item.title}}</text>
+    <text class="post-content">{{item.content}}</text>
+
+  </view>
+</template>

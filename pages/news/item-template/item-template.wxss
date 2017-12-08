@@ -1,0 +1,36 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  background-color: #fff;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+}
+
+
+.post-title {
+  font-size: 36rpx;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: blod;
+  margin-left: 10rpx;
+}
+
+.post-image {
+  width: 100%;
+  margin-left: 16rpx;
+  height: 320rpx;
+  margin: auto 0;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+  padding: 0 20rpx;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+  
+}

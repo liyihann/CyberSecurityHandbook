@@ -1,0 +1,47 @@
+<!--post.wxml-->
+<import src="item-template/item-template.wxml" />
+<view>
+    <swiper autoplay="true" catchtap="onSwiperTap">
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/2017041723-150x113.png" data-postId="0"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/03/2017322-20-150x113.jpg" data-postId="1"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/02/hacking-computer.jpg" data-postId="2"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2016/10/WechatIMG42.jpeg" data-postId="3"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/02/u14610930151789319295fm21gp0-150x112.jpg" data-postId="4"></image>
+        </swiper-item>     
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/Cover040703-210x160.jpeg" data-postId="5"></image>
+        </swiper-item>  
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2016/10/WechatIMG29.jpeg" data-postId="6"></image>
+        </swiper-item>   
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/2017040826-210x160.png" data-postId="7"></image>
+        </swiper-item> 
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/微信图片_20170329160210-210x160.png" data-postId="8"></image>
+        </swiper-item> 
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/2017041723-210x160.png" data-postId="9"></image>
+        </swiper-item>  
+        <swiper-item>
+            <image src="http://hackernews.cc/wp-content/uploads/2017/04/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20170411105248-1-210x160.png" data-postId="10"></image>
+        </swiper-item>        
+    </swiper>
+    
+    <block wx:for="{{posts_key}}" wx:for-item="item" wx:for-index="idx">
+        <!--template 模板-->
+        <view catchtap="onPostTap" data-postId="{{item.postId}}">
+            <template is="postItem" data="{{item}}"/>            
+        </view>
+    </block>
+</view>
+    

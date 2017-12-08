@@ -1,0 +1,6 @@
+<!--pages/news-details/news-detail.wxml-->
+<view class="container">
+<image src="{{postData.headImgSrc}}" class="head-img"></image>
+    <text class="titleMore">{{postData.title}}</text>
+    <text class="detailContent">{{postData.detail}}</text>
+</view>

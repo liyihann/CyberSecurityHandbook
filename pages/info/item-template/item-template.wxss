@@ -1,0 +1,28 @@
+.post-container {
+
+  margin-top: 100rpx;
+  margin-bottom: 100rpx;
+  background-color: #fff;
+
+  margin-left:100rpx;
+}
+
+
+.post-img {
+  width: 200rpx;
+  height: 200rpx;
+margin-left:180rpx;
+
+}
+
+.post-content {
+  color: #666;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+ margin-left:50rpx;
+  letter-spacing: 2rpx;
+  line-height: 40rpx;
+}
+
+
+

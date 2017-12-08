@@ -1,0 +1,28 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  background-color: #fff;
+  padding-bottom: 5px;
+   border-bottom: 1px solid #e4e6e6;
+}
+
+
+.post-title {
+  font-size: 36rpx;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: blod;
+  margin-left: 20rpx;
+}
+
+.post-content {
+  color: #666;
+  font-size: 28rpx;
+  margin-bottom: 0rpx;
+  padding: 0 20rpx;
+  letter-spacing: 2rpx;
+  line-height: 50rpx;
+  
+}

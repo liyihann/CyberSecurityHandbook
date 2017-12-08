@@ -1,0 +1,33 @@
+<view class="find">
+  <scroll-view scroll-x="true" class="tab-nav">
+    <view class="scroll-view-item {{active == 'film' ? 'tab-nav-active':''}}" data-type="film" bindtap="chageFindData">影视</view>
+    <view class="scroll-view-item {{active == 'book' ? 'tab-nav-active':''}}" data-type="book" bindtap="chageFindData">书籍</view>
+    <view class="scroll-view-item {{active == 'account' ? 'tab-nav-active':''}}" data-type="account" bindtap="chageFindData">公众号</view>
+    <view class="scroll-view-item {{active == 'site' ? 'tab-nav-active':''}}" data-type="site" bindtap="chageFindData">网站</view>
+
+  </scroll-view>
+
+  <scroll-view scroll-y="true" class="find-content" lower-threshold="50" bindscrolltolower="scrollToLower">
+    <block wx:for="{{findList}}">
+        <view class="find-list" data-idx="{{index}}">
+            <image src="{{item.imgUrl}}" class="find-image" mode="aspectFill"></image>
+            <view class="find-info">
+              <view class="find-title">{{item.title}}</view>
+              <view class="find-author">{{item.author}}</view>
+              <!--<view class="find-number">
+                <image class="icon-look" src="/images/icons/icon-view.png"></image>{{item.look}}
+                <image class="icon-like ml20" src="/images/icons/icon-zan.png"></image>{{item.like}}
+              </view>-->
+            </view>
+        </view>
+    </block>
+    <view class="load-more" style="display: {{showLoadMore ? 'block':'none'}}">
+      <block wx:if="{{isMore}}">
+        <text>正在加载更多...</text>
+      </block>
+      <block wx:else>
+        <text>已经到达底部</text>
+      </block>
+    </view>
+  </scroll-view>
+</view>

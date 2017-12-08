@@ -1,0 +1,15 @@
+<!--pages/post-details/post-detail.wxml-->
+<view class="container">
+ 
+    <view class="authorBox">
+
+        <text class="authorName">{{postData.author}}</text>
+
+
+    </view>
+    <text class="titleMore">{{postData.title}}</text>
+
+   
+    
+    <text class="detailContent">{{postData.detail}}</text>
+</view>

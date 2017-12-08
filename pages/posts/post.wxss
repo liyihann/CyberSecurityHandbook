@@ -1,0 +1,5 @@
+@import "item-template/item-template.wxss";
+page{
+    background-color: #fff;
+    margin-top: 30rpx;
+}
