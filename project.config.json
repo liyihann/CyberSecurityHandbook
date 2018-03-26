@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.0",
 	"appid": "wxe2de7fe2bfb5e10e",
-	"projectname": "WebSecurityHandbook",
+	"projectname": "CyberSecurityHandbook",
 	"condition": {
 		"search": {
 			"current": -1,
