@@ -8,8 +8,8 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.6.0",
-	"appid": "wxe2de7fe2bfb5e10e",
+	"": "1.6.0libVersion",
+	"appid": "******************",
 	"projectname": "CyberSecurityHandbook",
 	"condition": {
 		"search": {
